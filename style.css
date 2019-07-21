@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(63, 41, 41);
+    font-family: 'Signika Negative', sans-serif;
+
+}
+#image {
+    transform:rotate(270deg);
+    position: absolute;
+    left: 5vw;
+    top: 5vw;
+    border: 5px solid rgb(214, 214, 214); 
+    border-radius: 50%;
+}
+.div-1 {
+    border-bottom: 5px solid rgb(177, 177, 177);
+    border-bottom-left-radius: 10%;
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+}
+#name {
+    position: absolute;
+    left: 22vw;
+    top: 10vh;
+    //border: 1px solid black;
+    font-size: 50px;
+    color: rgb(107, 231, 82);
+    //color: rgba(95, 228, 113, 0.719);
+}
+#intro {
+    color: #c2c2c2;
+    font-size: 20px; 
+    position: absolute;
+    top: 20vh;   
+    left: 22vw;
+}
+.div-2 {
+    border: 5px solid rgba(247, 247, 247, 0.801);
+    border-radius: 10%;
+    position: absolute;
+    top: 45vh;
+    left: 5vw;
+    width: 25vw;
+    height: 50vh;
+    padding: 1%;
+    overflow: hidden;
+}
+.title {
+    color: rgb(250, 237, 240);
+    text-align: center;
+    padding: 3%;
+}
+.info {
+    font-size: 1.6rem;
+    color: rgb(99, 228, 116);
+    line-height: 3rem;   
+}
+.div-3 {
+    border: 5px solid rgba(247, 247, 247, 0.801);
+    border-radius: 10%;
+    position: absolute;
+    width: 25vw;
+    height: 50vh;
+    top: 45vh;
+    left: 35vw;
+    padding: 1%;
+}
+.div-4 {
+    border: 5px solid rgba(247, 247, 247, 0.801);
+    border-radius: 10%;
+    position: absolute;
+    width: 25vw;
+    height: 50vh;
+    top: 45vh;
+    left: 65vw;
+    padding: 1%;
+}
