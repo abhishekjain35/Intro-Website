@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(63, 41, 41);
+    background-color: rgb(102, 102, 102);
     font-family: 'Signika Negative', sans-serif;
 
 }
@@ -15,17 +15,17 @@ body {
     border-bottom: 5px solid rgb(177, 177, 177);
     border-bottom-left-radius: 10%;
     position: absolute;
-    width: 100vw;
+    width: 98vw;
     height: 40vh;
 }
 #name {
     position: absolute;
     left: 22vw;
     top: 10vh;
-    //border: 1px solid black;
     font-size: 50px;
     color: rgb(107, 231, 82);
-    //color: rgba(95, 228, 113, 0.719);
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+
 }
 #intro {
     color: #c2c2c2;
@@ -43,17 +43,18 @@ body {
     width: 25vw;
     height: 50vh;
     padding: 1%;
-    overflow: hidden;
+    background-image: url('book.png');
+    background-size: 25vw 50vh;
 }
 .title {
-    color: rgb(250, 237, 240);
+    color: rgb(78, 78, 78);
     text-align: center;
     padding: 3%;
 }
 .info {
-    font-size: 1.6rem;
-    color: rgb(99, 228, 116);
-    line-height: 3rem;   
+    font-size: 1.7rem;
+    color: rgb(59, 59, 59);
+    line-height: 3rem;    
 }
 .div-3 {
     border: 5px solid rgba(247, 247, 247, 0.801);
@@ -64,6 +65,8 @@ body {
     top: 45vh;
     left: 35vw;
     padding: 1%;
+    background-image: url('idea.png');
+    background-size: 25vw 50vh;
 }
 .div-4 {
     border: 5px solid rgba(247, 247, 247, 0.801);
@@ -74,4 +77,46 @@ body {
     top: 45vh;
     left: 65vw;
     padding: 1%;
+    background-image: url('white.png');
+    background-size: 25vw 50vh;
+}
+.links {
+    position: absolute;
+    width: 15vw;
+    height: 5vh;
+    font-size: 4vh;
+    right: 20%;
+    top: 10%;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px 10px 0px 10px; */
+    text-decoration: none;
+    align-items: center;
+}
+.fa-facebook {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+.fa-instagram {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+.fa-twitter {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+.fa-github {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+.fa-linkedin {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    padding: 5px;
+    border-right: 4px solid rgb(236, 236, 236);
 }
